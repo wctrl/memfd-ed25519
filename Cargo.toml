@@ -1,0 +1,20 @@
+[package]
+name = "memfd-ed25519"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ed25519-dalek = "2.1.1"
+memfd-exec = "0.2.1"
+rand = "0.8.5"
+
+[build-dependencies]
+ed25519-dalek = "2.1.1"
+
+[[bin]]
+name = "make_signature"
+path = "src/make_signature.rs"
+
+[[bin]]
+name = "memfd-ed25519"
+path = "src/.main.rs"

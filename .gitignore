@@ -1,0 +1,5 @@
+/target
+*.o
+*.lock
+*.vscode*
+.main.rs
